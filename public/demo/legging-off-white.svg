@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" role="img" aria-label="Imagem ilustrativa">
+<defs>
+<linearGradient id="wall" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#cfc0ae"/><stop offset="1" stop-color="#b9a68f"/></linearGradient>
+<linearGradient id="shade" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fff" stop-opacity=".18"/><stop offset=".55" stop-color="#fff" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity=".22"/></linearGradient>
+<radialGradient id="sh" cx=".5" cy=".5" r=".5"><stop offset="0" stop-color="#3d2b1f" stop-opacity=".28"/><stop offset="1" stop-color="#3d2b1f" stop-opacity="0"/></radialGradient>
+</defs>
+<rect width="800" height="1000" fill="url(#wall)"/>
+<path d="M0 860 Q400 820 800 870 L800 1000 L0 1000Z" fill="#fff" fill-opacity=".22"/>
+<ellipse cx="400" cy="900" rx="250" ry="34" fill="url(#sh)"/>
+<g transform="translate(0 -20)"><path d="M312 200 L488 200 L522 800 L432 812 L400 390 L368 812 L278 800 Z" fill="#f4eee5"/><path d="M312 200 L488 200 L522 800 L432 812 L400 390 L368 812 L278 800 Z" fill="url(#shade)"/><path d="M312 200 L488 200 L522 800 L432 812 L400 390 L368 812 L278 800 Z" fill="none" stroke="rgba(0,0,0,.14)" stroke-width="1.5"/><path d="M400 390 L400 200" fill="none" stroke="rgba(90,70,50,.16)" stroke-width="3" stroke-linecap="round"/><path d="M340 300 L318 790" fill="none" stroke="rgba(90,70,50,.16)" stroke-width="3" stroke-linecap="round"/><path d="M460 300 L482 790" fill="none" stroke="rgba(90,70,50,.16)" stroke-width="3" stroke-linecap="round"/></g>
+<text x="400" y="968" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="17" letter-spacing="3" fill="#5b4a40" fill-opacity=".55">IMAGEM ILUSTRATIVA</text>
+</svg>

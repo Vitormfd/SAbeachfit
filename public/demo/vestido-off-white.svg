@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" role="img" aria-label="Imagem ilustrativa">
+<defs>
+<linearGradient id="wall" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#cfc0ae"/><stop offset="1" stop-color="#b9a68f"/></linearGradient>
+<linearGradient id="shade" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fff" stop-opacity=".18"/><stop offset=".55" stop-color="#fff" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity=".22"/></linearGradient>
+<radialGradient id="sh" cx=".5" cy=".5" r=".5"><stop offset="0" stop-color="#3d2b1f" stop-opacity=".28"/><stop offset="1" stop-color="#3d2b1f" stop-opacity="0"/></radialGradient>
+</defs>
+<rect width="800" height="1000" fill="url(#wall)"/>
+<path d="M0 860 Q400 820 800 870 L800 1000 L0 1000Z" fill="#fff" fill-opacity=".22"/>
+<ellipse cx="400" cy="900" rx="250" ry="34" fill="url(#sh)"/>
+<g transform="translate(0 -20)"><path d="M342 228 Q400 292 458 228 L492 258 L470 380 Q566 520 626 830 Q400 872 174 830 Q234 520 330 380 L308 258 Z" fill="#f4eee5"/><path d="M342 228 Q400 292 458 228 L492 258 L470 380 Q566 520 626 830 Q400 872 174 830 Q234 520 330 380 L308 258 Z" fill="url(#shade)"/><path d="M342 228 Q400 292 458 228 L492 258 L470 380 Q566 520 626 830 Q400 872 174 830 Q234 520 330 380 L308 258 Z" fill="none" stroke="rgba(0,0,0,.14)" stroke-width="1.5"/><path d="M400 300 L400 850" fill="none" stroke="rgba(90,70,50,.16)" stroke-width="3" stroke-linecap="round"/><path d="M350 420 Q330 620 290 820" fill="none" stroke="rgba(90,70,50,.16)" stroke-width="3" stroke-linecap="round"/><path d="M450 420 Q470 620 510 820" fill="none" stroke="rgba(90,70,50,.16)" stroke-width="3" stroke-linecap="round"/></g>
+<text x="400" y="968" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="17" letter-spacing="3" fill="#5b4a40" fill-opacity=".55">IMAGEM ILUSTRATIVA</text>
+</svg>
